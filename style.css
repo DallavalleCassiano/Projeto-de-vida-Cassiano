@@ -60,6 +60,20 @@
     .botoes {
         display: block;
     }
+
+    .botao.ativo{
+        background-color: var(--botao-ativo);
+        border-bottom: 4px solid var(--verde);
+
+    }
+
+
+
+
+
+
+
+
     @media screen(min-width: 768px;){
         .botoes{
             display: flex;
