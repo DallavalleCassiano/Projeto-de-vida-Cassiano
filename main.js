@@ -1,7 +1,7 @@
-const botoes = document.querySelectorAll(",botao");
+const botoes = document.querySelectorAll(".botao");
 
 for (let i=0; i<botoes.length;i++){
-    botoes[I].onclick = function (){
+    botoes[i].onclick = function (){
 
         for(let j=0;j<botoes.length; j++){
             botoes[j].classList.revome("ativo");
